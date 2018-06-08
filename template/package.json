@@ -1,0 +1,28 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "jpsc <jpc@mm.st>",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3333 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "4.5.1",
+    "@nuxtjs/axios": "5.3.1",
+    "@nuxtjs/pwa": "2.0.8",
+    "axios": "0.18.0",
+    "nuxt-edge": "2.0.0-25471736.3b2ed03",
+    "tailwindcss": "0.5.3"
+  },
+  "devDependencies": {
+    "cssnano": "3.10.0",
+    "glob-all": "3.1.0",
+    "postcss-import": "11.1.0",
+    "postcss-loader": "2.1.5",
+    "purgecss-webpack-plugin": "^1.2.0"
+  }
+}
