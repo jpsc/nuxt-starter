@@ -17,5 +17,5 @@ module.exports = {
       'default': 'Nuxt.js project'
     }
   },
-  completeMessage: '{{#inPlace}}To get started:\n\n  npm install # Or yarn\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install # Or yarn\n  npm run dev{{/inPlace}}'
+  completeMessage: '{{#inPlace}}To get started:\n\n  npm install \n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev{{/inPlace}}'
 };
