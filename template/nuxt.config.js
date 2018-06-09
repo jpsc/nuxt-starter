@@ -60,7 +60,6 @@ module.exports = {
   },
   modules: [
     ['@nuxtjs/pwa', { onesignal: false }],
-    '@nuxtjs/axios',
-    '@nuxtjs/auth'
+    '@nuxtjs/axios'
   ],
 };
