@@ -62,4 +62,7 @@ module.exports = {
     ['@nuxtjs/pwa', { onesignal: false }],
     '@nuxtjs/axios'
   ],
+  plugins: [
+    { src: '~/plugins/svg-sprite.js', ssr: false }
+  ]
 };

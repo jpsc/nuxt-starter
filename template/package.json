@@ -8,13 +8,15 @@
     "dev": "PORT=3333 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "icons": "svg-sprite --symbol --shape-id-separator='' --symbol-dest='' --ss='sprite.svg' --dest='./static' ./icons/*.svg"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
-    "@nuxtjs/pwa": "^2.4.0",
-    "nuxt-edge": "2.0.0-25594102.4311aca",
-    "tailwindcss": "^0.6.5"
+    "@nuxtjs/pwa": "^2.5.0",
+    "nuxt-edge": "2.0.0-25603961.baaf67d",
+    "tailwindcss": "^0.6.5",
+    "vue-svg-sprite": "^1.2.3"
   },
   "devDependencies": {
     "cssnano": "^4.1.0",
