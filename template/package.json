@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
     "@nuxtjs/pwa": "^2.5.0",
-    "nuxt-edge": "2.0.0-25603961.baaf67d",
+    "nuxt-edge": "2.0.0-25619719.2dd2f2a",
     "tailwindcss": "^0.6.5",
     "vue-svg-sprite": "^1.2.3"
   },
@@ -23,6 +23,6 @@
     "glob-all": "^3.1.0",
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",
-    "purgecss-webpack-plugin": "^1.2.0"
+    "purgecss-webpack-plugin": "^1.3.0"
   }
 }
