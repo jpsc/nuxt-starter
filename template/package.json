@@ -12,14 +12,14 @@
     "icons": "svg-sprite --symbol --shape-id-separator='' --symbol-dest='' --ss='sprite.svg' --dest='./static' ./icons/*.svg"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.1",
-    "@nuxtjs/pwa": "^2.5.0",
-    "nuxt-edge": "2.0.0-25619719.2dd2f2a",
-    "tailwindcss": "^0.6.5",
+    "@nuxtjs/axios": "^5.3.2",
+    "@nuxtjs/pwa": "^2.6.0",
+    "nuxt": "^2.0.0",
+    "tailwindcss": "^0.6.6",
     "vue-svg-sprite": "^1.2.3"
   },
   "devDependencies": {
-    "cssnano": "^4.1.0",
+    "cssnano": "^4.1.4",
     "glob-all": "^3.1.0",
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",
